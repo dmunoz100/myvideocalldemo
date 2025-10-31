@@ -3,7 +3,7 @@ import './App.css'
 import {VideoCall} from './VideoCall'
 
 function App() {
-  const [roomId, setRoomId] = useState<string>('demo-room');
+  const [roomId, _setRoomId] = useState<string>('demo-room');
   return (
    <div>
       <h1>Video Llamada Demo</h1>
