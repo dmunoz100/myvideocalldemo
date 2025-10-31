@@ -11,7 +11,7 @@ interface SignalData {
   sender?: string;
 }
 
-const socket: Socket = io('https://tc3vcw8g-3000.usw3.devtunnels.ms/');
+const socket: Socket = io('https://myvideocalldemo-api.onrender.com/');
 
 export const VideoCall: React.FC<VideoCallProps> = ({ roomId }) => {
   const localVideoRef = useRef<HTMLVideoElement>(null);
